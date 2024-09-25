@@ -1,0 +1,277 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: left # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Asbahal Munawaroh
+    tagline: Front End Developher
+    avatar: asbahal.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: asbahalmunawaroh@gmail.com
+    phone: 08816579468
+    timezone: Asia/Jakarta # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    citizenship:
+    website: https://github.com/Bahal14/my-cv # Include the full website URL, including "http://" or "https://".
+    linkedin: asbahalmunawaroh
+    xing: '-'
+    github: Bahal14
+    telegram: '@zblmw' # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '-'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    mastodon:  # Please include your full Mastodon link here.
+    hackerrank: # Please provide your HackerRank username.
+    leetcode: # Please provide your LeetCode username.
+    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Native
+
+        - idiom: Indonesia
+          level: Professional
+
+    interests:
+      title: Interests
+      info:
+        - item: Computer Science
+          link:
+
+        - item: Network Enginer
+          link:
+
+        - item: UI/UX Designer
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Saya Lulusan program studi Manajemen Informatika jurusan Teknologi Informasi. Saya memiliki motivasi dan 
+      berorientasi dengan minat besar dalam teknologi dan pemecahan masalah. Memiliki dasar yang kuat dalam computer 
+      science, network enginer, dan ui/ux designer. Saya sangat berantusias untuk memanfaatkan keterampilan dan pengetahuan 
+      saya secara efektif dalam berkontribusi bersama tim. Selain itu saya juga ingin memiliki banyak pengalaman dalam bidang
+      Teknologi Infomasi yang berkembang tiap tahunnya.
+education:
+    title: Pendidikan
+    info:
+      - degree: Teknologi Informasi
+        university: PSDKU Politeknik Negeri Malang Kota Kediri
+        time: 2021 - 2024
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+      - degree: Mipa
+        university: SMAN 2 Kebumen
+        time: 2018 - 2021
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+
+experiences:
+    title: Pengalaman PKL
+    info:
+      - role: Program Bantuan Sosial
+        time: Juni - Agustus 2023
+        company: PT Pos Indonesia Kota Kediri
+        details: |
+          Saya memiliki pengalaman praktek kerja lapangan di kantor pos, ditempat tersebut saya banyak 
+          melakukan berbagai tugas seperti berikut:
+            - Mengatur koneksi jaringan untuk memindahkan fie dari pc 1 ke pc 2
+            - Melakukan kegiatan untuk memverifikasi dan administrasi dokumen untuk program bantuan sosial.
+            - Melakukan kegiatan untuk evaluasi dan merevisi dokumen untuk program bantuan sosial.
+
+organizationexperiences:
+    title: Pengalaman Organisasi
+    info:
+      - role: Devisi Layouter
+        time: 2021 - 2023
+        company: UKM Index Media
+        details: |
+          Saya memiliki pengalaman organisasi atau unit kegiatan mahasiswa (UKM) di kampus, ditempat tersebut 
+          saya banyak melakukan berbagai tugas seperti berikut:
+            - UKM IDEA adalah Unit Kegiatan Mahasiswa (UKM) Jurnalistik di PSDKU Polinema di Kota Kediri.
+            - UKM ini bertujuan untuk mengembangkan keterampilan dan kreativitas mahasiswa.
+            - Mendokumentasikan setiap kegiatan dalam bentuk foto dan video.
+            - Melakukan pengeditan terhadap hasil foto kegiatan yang diperoleh.
+            - Memproses unggahan media sosial agar lebih menarik dan informatif.
+            - Mengikuti kegiatan yang mendorong kolaborasi organisasi di luar kampus.
+            - Belajar mengedit poster menggunakan platform Canva dan aplikasi pengeditan lainnya.
+            - Sebagai seorang layouter, saya telah mengembangkan kreasi untuk akun Instagram resmi UKM Index Media. 
+              Saya membuat unggahan berdasarkan berita nyata di kampus Polinema. Selain itu, saya juga telah menambahkan 
+              akun Instagram untuk pengakuan anonim, yang dimulai pada tahun ajaran ini.
+      # - role: Senior Software Engineer
+      #   time: 2014 - 2015
+      #   company: Google, London
+      #   details: |
+      #     Describe your role here lorem ipsum dolor sit amet, consectetuer
+      #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      #     Cum sociis natoque penatibus et magnis dis parturient montes,
+      #     nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      #     pellentesque eu, pretium quis, sem.
+      #       - Bullet point
+      #       - Bullet point
+      # - role: UI Developer
+      #   time: 2012 - 2014
+      #   company: Amazon, London
+      #   details: |
+      #     Describe your role here lorem ipsum dolor sit amet, consectetuer
+      #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      #     Cum sociis natoque penatibus et magnis dis parturient montes,
+      #     nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      #     pellentesque eu, pretium quis, sem.
+      #       - Bullet point
+      #       - Bullet point
+
+certifications:
+      title: Sertifikat
+      list:
+        - name: Sertifikat Kompetensi
+          start: 2023
+          end: 2026
+          # organization: Microsoft
+          # credentialid: 111-222
+          # credentialurl: www.google.com
+          # credentialname: Google
+          details: |
+            Di dalam sertifikat ini telah dinyatakan kompeten dalam bidang pengembangan 
+            perangkat lunak, dengan keahlian yang mencakup analisis kebutuhan, perancangan, 
+            implementasi, pengujian, serta pemeliharaan aplikasi dan sistem berbasis software. 
+            Kemampuan tersebut juga mencakup penggunaan berbagai bahasa pemrograman, framework, 
+            dan alat bantu teknologi terkini untuk menghasilkan solusi perangkat lunak yang efisien 
+            dan sesuai dengan standar industri.
+        # - name: Git learning
+        #   start: 2019
+        #   end:
+        #   organization: Microsoft
+        #   credentialid: 111-222
+        #   credentialurl: www.github.com
+        #   credentialname: Github
+        #   details: |
+        #     Older certification. Lorem ipsum dolor sit amet, consectetur
+        #     adipiscing elit.
+        #     Nullam eget orci purus. Nullam ultrices neque nibh.
+        #     Aenean fermentum, felis vulputate suscipit accumsan,
+        #     sem enim bibendum augue, sed convallis arcu lacus at dui.
+        #     Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+        #     Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+        #     Praesent venenatis erat non augue suscipit consectetur.
+
+projects:
+    title: Projects
+    intro: >
+      Selama perkuliahan, saya telah terlibat dalam berbagai proyek yang berfokus pada pengembangan keterampilan teknis dan pemecahan masalah. 
+      Setiap proyek ini memberikan pengalaman berharga dalam menerapkan teori yang dipelajari di kelas ke dalam situasi nyata, serta mengasah kemampuan saya dalam bekerja secara tim dan mandiri. Melalui proyek-proyek ini, saya juga belajar tentang pentingnya perencanaan yang baik, pengelolaan waktu, serta pengujian dan debugging dalam memastikan hasil yang optimal. 
+      Selama perkuliahan saya membuat beberapa project seperti berikut ini:
+    assignments:
+      - title: Sistem Informasi Keluar Masuk Surat
+        # link: "#hook"
+        tagline: "Di project ini saya membuat website untuk mendata ketika surat masuk dan keluar."
+
+      - title: Sistem Informasi Inventory Obat Dengan Integrasi Barcode Berbasis Mobile 
+        # link: "#"
+        tagline: "Aplikasi berbasis mobile atau android dirancang 
+untuk memonitor keluar masuk stok obat sehingga dapat mengetahui masa 
+kadaluwarsa obat dan mempermudah kasir untuk mengelola data transaksi secara 
+online. Dari sisi costumer dapat meminimalisir kerugian yang diakibatkan oleh obat 
+kadaluwarsa. Selain itu juga mempermudah dan mempercepat kinerja karyawan 
+dalam pengontrolan stok obat, pendataan supplier, kelola data pegawai, transaksi 
+obat masuk dan keluar, serta laporan transaksi"
+
+      # - title: Tempo
+      #   link: "#"
+      #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      # - title: Atom
+      #   link: "#"
+      #   tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      # - title: Delta
+      #   link: "#"
+      #   tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+# skills:
+#     title: Skills &amp; Proficiency
+
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
+
+#       - name: Javascript & jQuery
+#         level: 98%
+
+#       - name: Angular
+#         level: 98%
+
+#       - name: HTML5 & CSS
+#         level: 95%
+
+#       - name: Ruby on Rails
+#         level: 85%
+
+#       - name: Sketch & Photoshop
+#         level: 60%
+
+footer: >
+    Didesain oleh <i class="fas fa-heart"></i> by <a href="https://bahal14.github.io" target="_blank" rel="nofollow">Asbahal Munawaroh</a>

@@ -1,0 +1,37 @@
+{% assign organizationexperiences = site.data.data.organizationexperiences %}
+{% if organizationexperiences %}
+<section class="section organizationexperiences-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ organizationexperiences.title }}
+  </h2>
+
+  {% for organizationexperience in organizationexperiences.info %}
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <h3 class="job-title">{{ organizationexperience.role }}</h3>
+        <div class="time">{{ organizationexperience.time }}</div>
+      </div><!--//upper-row-->
+
+      <div class="company">{{ organizationexperience.company }}</div>
+
+    </div><!--//meta-->
+
+    {% if organizationexperience.details %}
+    <div class="details">
+      {{ organizationexperience.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
+
